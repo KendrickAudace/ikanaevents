@@ -47,7 +47,7 @@ return [
     |
     */
     'permissions' => [
-        '../public_html/uploads/'     => '775',
+        'public_html/uploads/'     => '775',
         'storage/framework/'     => '775',
         'storage/logs/'          => '775',
         'bootstrap/cache/'       => '775'
