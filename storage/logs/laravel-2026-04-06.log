@@ -1,0 +1,264 @@
+[2026-04-06 00:54:27] production.ERROR: Maximum execution time of 60 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 60 seconds exceeded at D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\composer\\ClassLoader.php:430)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-06 01:15:11] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Audace has created tour Visit BIGOGWE",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:8000\/uploads\/0000\/6\/2026\/04\/05\/gemini-generated-image-lgyqmklgyqmklgyq.png\" alt=\"Audace\">",
+    "link": "http:\/\/127.0.0.1:8000\/admin\/module\/tour\/edit\/17",
+    "idNotification": "e10d7bac-6a30-48d2-a031-3c4da6483041",
+    "socket": null
+}  
+[2026-04-06 01:18:20] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Visit BIGOGWE was updated to Publish by admin@ikana.com ",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:8000\/images\/avatar.png\" alt=\"admin@ikana.com \">",
+    "link": "http:\/\/127.0.0.1:8000\/admin\/module\/tour?id=17",
+    "idNotification": "d6396a5e-011c-476a-b0fb-f62b0d1a3c82",
+    "socket": null
+}  
+[2026-04-06 01:18:20] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-7] with payload:
+{
+    "message": "Visit BIGOGWE was updated to Publish by admin@ikana.com ",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:8000\/uploads\/0000\/6\/2026\/04\/05\/gemini-generated-image-lgyqmklgyqmklgyq.png\" alt=\"Audace\">",
+    "link": "http:\/\/127.0.0.1:8000\/user\/tour?id=17",
+    "idNotification": "20cf9d93-980e-41ac-a6b5-d6e0650cd627",
+    "userId": 7,
+    "socket": null
+}  
+[2026-04-06 21:39:43] production.ERROR: Maximum execution time of 60 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 60 seconds exceeded at D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\composer\\semver\\src\\Constraint\\Constraint.php:17)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-06 21:39:47] production.ERROR: Route [admin.index] not defined. {"view":{"view":"D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\modules\\Layout\\parts\\global-script.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1117660090 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1646</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1117660090\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","exception":"<pre class=sf-dump id=sf-dump-1386574013 data-indent-pad=\"  \"><span class=sf-dump-note>Symfony\\Component\\HttpKernel\\Exception\\HttpException</span> {<a class=sf-dump-ref>#1658</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">message</span>: \"<span class=sf-dump-str title=\"45 characters\">Maximum execution time of 60 seconds exceeded</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">code</span>: <span class=sf-dump-num>0</span>
+  #<span class=sf-dump-protected title=\"Protected property\">file</span>: \"<span class=\"sf-dump-str sf-dump-ellipsization\" title=\"D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php
+141 characters\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">\\laravel\\framework\\</span><span class=\"sf-dump-ellipsis-tail\">src\\Illuminate\\Foundation\\Exceptions\\Handler.php</span></span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">line</span>: <span class=sf-dump-num>814</span>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Exception`\">previous</span>: <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"Symfony\\Component\\ErrorHandler\\Error\\FatalError
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Symfony\\Component\\ErrorHandler\\Error</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">FatalError</span></span> {<a class=sf-dump-ref href=#sf-dump-1386574013-ref2411 title=\"6 occurrences\">#411</a><samp data-depth=2 id=sf-dump-1386574013-ref2411 class=sf-dump-compact>
+    #<span class=sf-dump-protected title=\"Protected property\">message</span>: \"<span class=sf-dump-str title=\"45 characters\">Maximum execution time of 60 seconds exceeded</span>\"
+    #<span class=sf-dump-protected title=\"Protected property\">code</span>: <span class=sf-dump-num>0</span>
+    #<span class=sf-dump-protected title=\"Protected property\">file</span>: \"<span class=\"sf-dump-str sf-dump-ellipsization\" title=\"D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\composer\\semver\\src\\Constraint\\Constraint.php
+120 characters\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">\\composer\\semver\\</span><span class=\"sf-dump-ellipsis-tail\">src\\Constraint\\Constraint.php</span></span>\"
+    #<span class=sf-dump-protected title=\"Protected property\">line</span>: <span class=sf-dump-num>17</span>
+    -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Symfony\\Component\\ErrorHandler\\Error\\FatalError`\">error</span>: <span class=sf-dump-note>array:4</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>type</span>\" => <span class=sf-dump-num>1</span>
+      \"<span class=sf-dump-key>message</span>\" => \"<span class=sf-dump-str title=\"45 characters\">Maximum execution time of 60 seconds exceeded</span>\"
+      \"<span class=sf-dump-key>file</span>\" => \"<span class=sf-dump-str title=\"120 characters\">D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\composer\\semver\\src\\Constraint\\Constraint.php</span>\"
+      \"<span class=sf-dump-key>line</span>\" => <span class=sf-dump-num>17</span>
+    </samp>]
+  </samp>}
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Symfony\\Component\\HttpKernel\\Exception\\HttpException`\">statusCode</span>: <span class=sf-dump-num>500</span>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Symfony\\Component\\HttpKernel\\Exception\\HttpException`\">headers</span>: []
+  <span class=sf-dump-meta>trace</span>: {<samp data-depth=2 class=sf-dump-compact>
+    <span class=\"sf-dump-meta sf-dump-ellipsization\" title=\"D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php:814
+Stack level 8.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">\\laravel\\framework\\</span><span class=\"sf-dump-ellipsis-tail\">src\\Illuminate\\Foundation\\Exceptions\\Handler.php:814</span></span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"Illuminate\\Foundation\\Exceptions\\Handler-&gt;prepareResponse($request, Throwable $e)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Exceptions</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">Handler-&gt;prepareResponse($request, Throwable $e)</span></span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>if (! $this-&gt;isHttpException($e)) {</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Exceptions\\Handler-&gt;prepareResponse($request, Throwable $e)\">    $e = new HttpException(500, $e-&gt;getMessage(), $e);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+    </samp>}
+    <span class=\"sf-dump-meta sf-dump-ellipsization\" title=\"D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php:709
+Stack level 7.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">\\laravel\\framework\\</span><span class=\"sf-dump-ellipsis-tail\">src\\Illuminate\\Foundation\\Exceptions\\Handler.php:709</span></span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"Illuminate\\Foundation\\Exceptions\\Handler-&gt;renderExceptionResponse($request, Throwable $e)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Exceptions</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">Handler-&gt;renderExceptionResponse($request, Throwable $e)</span></span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>        ? $this-&gt;prepareJsonResponse($request, $e)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Exceptions\\Handler-&gt;renderExceptionResponse($request, Throwable $e)\">        : $this-&gt;prepareResponse($request, $e);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=\"sf-dump-meta sf-dump-ellipsization\" title=\"D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php:597
+Stack level 6.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">\\laravel\\framework\\</span><span class=\"sf-dump-ellipsis-tail\">src\\Illuminate\\Foundation\\Exceptions\\Handler.php:597</span></span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"Illuminate\\Foundation\\Exceptions\\Handler-&gt;render($request, Throwable $e)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Exceptions</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">Handler-&gt;render($request, Throwable $e)</span></span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>    $e instanceof ValidationException =&gt; $this-&gt;convertValidationExceptionToResponse($e, $request),</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Exceptions\\Handler-&gt;render($request, Throwable $e)\">    default =&gt; $this-&gt;renderExceptionResponse($request, $e),</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}, $e);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=\"sf-dump-meta sf-dump-ellipsization\" title=\"D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:219
+Stack level 5.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">\\laravel\\framework\\</span><span class=\"sf-dump-ellipsis-tail\">src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:219</span></span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;renderHttpResponse(Throwable $e)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Bootstrap</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">HandleExceptions-&gt;renderHttpResponse(Throwable $e)</span></span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>{</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;renderHttpResponse(Throwable $e)\">    $this-&gt;getExceptionHandler()-&gt;render(static::$app[&#039;request&#039;], $e)-&gt;send();</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=\"sf-dump-meta sf-dump-ellipsization\" title=\"D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:196
+Stack level 4.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">\\laravel\\framework\\</span><span class=\"sf-dump-ellipsis-tail\">src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:196</span></span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;handleException(Throwable $e)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Bootstrap</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">HandleExceptions-&gt;handleException(Throwable $e)</span></span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>} else {</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;handleException(Throwable $e)\">    $this-&gt;renderHttpResponse($e);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=\"sf-dump-meta sf-dump-ellipsization\" title=\"D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:232
+Stack level 3.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">\\laravel\\framework\\</span><span class=\"sf-dump-ellipsis-tail\">src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:232</span></span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;handleShutdown()
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Bootstrap</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">HandleExceptions-&gt;handleShutdown()</span></span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>if (! is_null($error = error_get_last()) &amp;&amp; $this-&gt;isFatal($error[&#039;type&#039;])) {</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;handleShutdown()\">    $this-&gt;handleException($this-&gt;fatalErrorFromPhpError($error, 0));</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=\"sf-dump-meta sf-dump-ellipsization\" title=\"D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:256
+Stack level 2.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">\\laravel\\framework\\</span><span class=\"sf-dump-ellipsis-tail\">src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:256</span></span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;Illuminate\\Foundation\\Bootstrap\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;Illuminate\\Foundation\\Bootstrap</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">{closure}</span></span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>return fn (...$arguments) =&gt; static::$app</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;Illuminate\\Foundation\\Bootstrap\\{closure}\">    ? $this-&gt;{$method}(...$arguments)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>    : false;</span></code>
+    </samp>}
+    <span class=\"sf-dump-meta sf-dump-ellipsization\" title=\"Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;Illuminate\\Foundation\\Bootstrap\\{closure}()
+Stack level 1.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-class\">Illuminate\\Foundation\\Bootstrap\\HandleExceptions-&gt;Illuminate\\Foundation\\Bootstrap</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-class\">\\</span><span class=\"sf-dump-ellipsis-tail\">{closure}()</span></span> {}
+  </samp>}
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1386574013\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","title":"<pre class=sf-dump id=sf-dump-1772696159 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"14 characters\">Page not found</span>\"
+</pre><script>Sfdump(\"sf-dump-1772696159\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [admin.index] not defined. at D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:526)
+[stacktrace]
+#0 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(883): Illuminate\\Routing\\UrlGenerator->route('admin.index', Array, true)
+#1 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\modules\\Layout\\parts\\global-script.blade.php(5): route('admin.index')
+#2 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('D:\\\\Booking Core...')
+#3 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\Booking Core...', Array)
+#5 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#6 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(76): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#7 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\Booking Core...', Array)
+#8 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('D:\\\\Booking Core...', Array)
+#9 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#10 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#11 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\themes\\BC\\Layout\\app.blade.php(36): Illuminate\\View\\View->render()
+#12 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('D:\\\\Booking Core...')
+#13 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#14 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\Booking Core...', Array)
+#15 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#16 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(76): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#17 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\Booking Core...', Array)
+#18 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('D:\\\\Booking Core...', Array)
+#19 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#20 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#21 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\resources\\views\\layouts\\app.blade.php(1): Illuminate\\View\\View->render()
+#22 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('D:\\\\Booking Core...')
+#23 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#24 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\Booking Core...', Array)
+#25 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#26 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(76): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#27 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\Booking Core...', Array)
+#28 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('D:\\\\Booking Core...', Array)
+#29 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#30 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#31 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\themes\\BC\\resources\\views\\errors\\illustrated-layout.blade.php(222): Illuminate\\View\\View->render()
+#32 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('D:\\\\Booking Core...')
+#33 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#34 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\Booking Core...', Array)
+#35 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#36 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(76): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#37 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\Booking Core...', Array)
+#38 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('D:\\\\Booking Core...', Array)
+#39 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#40 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#41 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\themes\\BC\\resources\\views\\errors\\500.blade.php(4): Illuminate\\View\\View->render()
+#42 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('D:\\\\Booking Core...')
+#43 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#44 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\Booking Core...', Array)
+#45 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#46 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(76): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#47 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\Booking Core...', Array)
+#48 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('D:\\\\Booking Core...', Array)
+#49 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#50 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#51 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(78): Illuminate\\View\\View->render()
+#52 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(34): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#53 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(61): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 500, Array)
+#54 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(91): Illuminate\\Routing\\ResponseFactory->make(Object(Illuminate\\View\\View), 500, Array)
+#55 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(897): Illuminate\\Routing\\ResponseFactory->view('errors::500', Array, 500, Array)
+#56 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(818): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\HttpException))
+#57 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(709): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\HttpException))
+#58 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(597): Illuminate\\Foundation\\Exceptions\\Handler->renderExceptionResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#59 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(219): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#60 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(196): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#61 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(232): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#62 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#63 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#64 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [admin.index] not defined. at D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:526)
+[stacktrace]
+#0 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(883): Illuminate\\Routing\\UrlGenerator->route('admin.index', Array, true)
+#1 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\storage\\framework\\views\\57cfb5a68d766b06356c100e480c1939.php(5): route('admin.index')
+#2 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('D:\\\\Booking Core...')
+#3 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\Booking Core...', Array)
+#5 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#6 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(76): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#7 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\Booking Core...', Array)
+#8 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('D:\\\\Booking Core...', Array)
+#9 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#10 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#11 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\storage\\framework\\views\\e8b53a2b95a18169375f7be7f6de5954.php(38): Illuminate\\View\\View->render()
+#12 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('D:\\\\Booking Core...')
+#13 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#14 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\Booking Core...', Array)
+#15 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#16 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(76): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#17 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\Booking Core...', Array)
+#18 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('D:\\\\Booking Core...', Array)
+#19 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#20 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#21 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\storage\\framework\\views\\3fa8510ef4924aa94fd8947ef4a74262.php(1): Illuminate\\View\\View->render()
+#22 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('D:\\\\Booking Core...')
+#23 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#24 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\Booking Core...', Array)
+#25 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#26 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(76): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#27 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\Booking Core...', Array)
+#28 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('D:\\\\Booking Core...', Array)
+#29 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#30 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#31 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\storage\\framework\\views\\93924c6dd7430fae883799377a79e7bd.php(224): Illuminate\\View\\View->render()
+#32 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('D:\\\\Booking Core...')
+#33 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#34 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\Booking Core...', Array)
+#35 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#36 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(76): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#37 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\Booking Core...', Array)
+#38 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('D:\\\\Booking Core...', Array)
+#39 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#40 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#41 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\storage\\framework\\views\\88749fd23bfbfd60e9b4b23c52e66b3c.php(6): Illuminate\\View\\View->render()
+#42 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('D:\\\\Booking Core...')
+#43 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#44 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\Booking Core...', Array)
+#45 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#46 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(76): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('D:\\\\Booking Core...', Array)
+#47 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\Booking Core...', Array)
+#48 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('D:\\\\Booking Core...', Array)
+#49 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#50 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#51 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(78): Illuminate\\View\\View->render()
+#52 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(34): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#53 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(61): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 500, Array)
+#54 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(91): Illuminate\\Routing\\ResponseFactory->make(Object(Illuminate\\View\\View), 500, Array)
+#55 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(897): Illuminate\\Routing\\ResponseFactory->view('errors::500', Array, 500, Array)
+#56 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(818): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\HttpException))
+#57 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(709): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\HttpException))
+#58 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(597): Illuminate\\Foundation\\Exceptions\\Handler->renderExceptionResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#59 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(219): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#60 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(196): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#61 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(232): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#62 D:\\Booking Core v4.0.1\\Booking Core v4.0.1\\booking-core4.0.1\\bc-cms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#63 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#64 {main}
+"} 

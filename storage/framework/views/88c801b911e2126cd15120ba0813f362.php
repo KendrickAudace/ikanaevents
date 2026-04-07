@@ -1,0 +1,2 @@
+<?php echo $__env->make("Layout::admin.app", array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+<?php /**PATH D:\Booking Core v4.0.1\Booking Core v4.0.1\booking-core4.0.1\bc-cms\resources\views/admin/layouts/app.blade.php ENDPATH**/ ?>
